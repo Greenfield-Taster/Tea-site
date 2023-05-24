@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="icon" href="../src/assets/logo-tea.png" type="image/icon type" />
+  </head>
+  <body>
+    <header
+      style="
+        height: 50em;
+        width: 100%;
+        background-image: url(../src/assets/tea-2318973_960_720.jpg);
+      "
+    >
+      <nav>
+        <ul>
+          <li><a href="../index.html">Головна</a></li>
+          <li><a href="#">Про нас</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="contact">
+      <h2>Контакти</h2>
+      <form action="#" method="post">
+        <label for="name">Ім'я</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Повідомлення</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Відправити</button>
+      </form>
+    </section>
+    <footer>
+      <p>© 2023, Tea Lab</p>
+    </footer>
+  </body>
+</html>

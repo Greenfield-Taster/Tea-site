@@ -3,6 +3,8 @@
   <head>
     <title>Tea Lab</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" type="text/css" href="./components/BlackTea.html" />
+    <link rel="stylesheet" type="text/css" href="./components/contact.html" />
     <link rel="icon" href="./src/assets/logo-tea.png" type="image/icon type" />
   </head>
   <body>
@@ -11,69 +13,67 @@
         <ul>
           <li><a href="#">Головна</a></li>
           <li><a href="#">Про нас</a></li>
-          <li><a href="#">Каталог</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li><a href="./components/contact.html">Контакти</a></li>
         </ul>
       </nav>
       <div class="hero-image">
         <div class="hero-text">
-          <h1>Гірський чай</h1>
-          <p>Ми пропонуємо великий вибір чаю високої якості</p>
-          <a href="#" class="button">Купити зараз</a>
+          <h1>Всесвіт чаю</h1>
+          <p>Ознайомся з найпопулярнішими сортами чаю</p>
+          <!-- <a href="#" class="button">Купити зараз</a> -->
         </div>
       </div>
     </header>
     <section class="about-us">
       <h2>Про нас</h2>
       <p>
-        Ми - компанія, яка займається продажем чаю вже багато років. Ми працюємо
-        тільки з найкращими постачальниками і гарантуємо якість наших товарів.
-        Наші клієнти завжди задоволені нашою роботою.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+        porro odit praesentium neque, eum eius blanditiis suscipit iusto nihil,
+        nostrum harum. Perferendis debitis perspiciatis sed deleniti soluta hic
+        officia explicabo voluptatum ex inventore, accusantium magni sint modi
+        incidunt, id magnam ullam molestiae recusandae possimus saepe nobis
+        atque. Nulla, ad perspiciatis.
       </p>
     </section>
     <section class="catalog">
       <h2>Каталог</h2>
       <ul class="products">
         <li class="product">
-          <img src="./src/assets/logo-tea.png" alt="Tea 1" />
-          <h3>Чай №1</h3>
-          <p class="price">$10</p>
-          <a href="#" class="button">Детальніше</a>
+          <h3>Чорний чай</h3>
+          <img src="./src/assets/black-tea.png" alt="Tea 1" />
+          <a href="./components/BlackTea.html">
+            <button class="button">Детальніше</button>
+          </a>
         </li>
         <li class="product">
-          <img src="./src/assets/logo-tea.png" alt="Tea 1" />
-          <h3>Чай №2</h3>
-          <p class="price">$12</p>
-          <a href="#" class="button">Детальніше</a>
+          <h3>Зелений чай</h3>
+          <img src="./src/assets/green-tea.png" alt="Tea 1" />
+          <a href="./components/GreenTea.html">
+            <button class="button">Детальніше</button>
+          </a>
         </li>
         <li class="product">
-          <img src="./src/assets/logo-tea.png" alt="Tea 1" />
-          <h3>Чай №2</h3>
-          <p class="price">$12</p>
-          <a href="#" class="button">Детальніше</a>
+          <h3>Білий чай</h3>
+          <img src="./src/assets/white-tea.jpg" alt="Tea 1" />
+          <a href="./components/WhiteTea.html">
+            <button class="button">Детальніше</button>
+          </a>
         </li>
         <li class="product">
-          <img src="./src/assets/logo-tea.png" alt="Tea 1" />
-          <h3>Чай №3</h3>
-          <p class="price">$15</p>
-          <a href="#" class="button">Детальніше</a>
+          <h3>Оолонг</h3>
+          <img src="./src/assets/oolong-tea.jpg" alt="Tea 1" />
+          <a href="./components/Oolong.html">
+            <button class="button">Детальніше</button>
+          </a>
+        </li>
+        <li class="product">
+          <h3>Фруктовий чай</h3>
+          <img src="./src/assets/fruit-tea.png" alt="Tea 1" />
+          <a href="./components/FruitTea.html">
+            <button class="button">Детальніше</button>
+          </a>
         </li>
       </ul>
-    </section>
-    <section class="contact">
-      <h2>Контакти</h2>
-      <form action="#" method="post">
-        <label for="name">Ім'я</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message">Повідомлення</label>
-        <textarea id="message" name="message" required></textarea>
-
-        <button type="submit">Відправити</button>
-      </form>
     </section>
     <footer>
       <p>© 2023, Tea Lab</p>
